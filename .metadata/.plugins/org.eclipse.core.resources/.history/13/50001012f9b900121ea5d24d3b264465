@@ -1,0 +1,8 @@
+package jp.mixi.banana.menu;
+
+public class MenuHandlerHelper {
+	
+	public void recommendHandler() {
+		
+	}
+}

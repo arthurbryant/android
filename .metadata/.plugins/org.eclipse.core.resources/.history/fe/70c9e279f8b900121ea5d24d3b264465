@@ -1,0 +1,5 @@
+package jp.mixi.banana.menu;
+
+public class MenuHandlerHelper {
+
+}

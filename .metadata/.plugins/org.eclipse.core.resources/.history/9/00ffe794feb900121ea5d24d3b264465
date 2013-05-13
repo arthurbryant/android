@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Banana</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- menu string -->
+    <string name="menu_recommends">Feel Lucky</string>
+    <string name="menu_settings">Settings</string>
+    
+    <!-- recommend string -->
+    <string name="recommend">recommend</string>
+
+</resources>
