@@ -10,4 +10,9 @@
         android:orderInCategory="100"
         android:showAsAction="ifRoom"
         android:title="@string/menu_settings"/>
+    <item
+        android:id="@+id/menu_test"
+        android:showAsAction="always"
+        android:title="@string/menu_test"/>
+        
 </menu>

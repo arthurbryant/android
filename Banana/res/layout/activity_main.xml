@@ -1,25 +1,98 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity" >
-   
-    
-    <WebView
-        android:id="@+id/webView"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" 
-        />
-<!--     <SearchView -->
-<!--         android:id="@+id/searchView" -->
-<!--         android:layout_width="400dip" -->
-<!--         android:layout_height="50dip" -->
-<!--         android:layout_centerHorizontal="true" -->
-<!--         android:layout_centerVertical="true" -->
-<!--         android:iconifiedByDefault="false" -->
-<!--         > -->
-        
-<!--     </SearchView> -->
-   
 
-</RelativeLayout>
+    <LinearLayout
+        android:id="@+id/inputText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dip" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="23dp"
+            android:text="@string/and_string" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/inputText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dip" >
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="23dp"
+            android:text="@string/title_string" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/searchArea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip" 
+            >
+
+            <TextView
+                android:id="@+id/iyada"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/iyada"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+             >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:onClick="sendChoose"
+                android:text="@string/search_button" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

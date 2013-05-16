@@ -7,11 +7,22 @@
     <!-- menu string -->
     <string name="menu_recommends">Feel Lucky</string>
     <string name="menu_settings">Settings</string>
+    <string name="menu_test">Test</string>
     
     <!-- recommend string -->
     <string name="recommend">recommend</string>
     
     <!-- search string -->
     <string name="dislikes">dislikes</string>
+    <string name="and_string">と</string>
+    <string name="title_string">は</string>
+    <string name="search_button">探す</string>
+    <string name="iyada">いやだ！</string>
+    
+    <!-- config -->
+    <string name="distance_string">キロぐらい</string>
+    <string name="price_string">円ぐらい</string>
+    <string name="submit_string">submit</string>
+    
     
 </resources>
